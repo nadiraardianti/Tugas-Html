@@ -173,8 +173,8 @@ nav ul li a{
 
 .Gallery img {
     display: block; /* Atau inline-block, tergantung kebutuhan Anda */
-    margin: 50px auto;
-    width: 700px;
+    margin: 20px auto;
+    width: 800px;
     padding: 20px;
     text-align: center;
 }
@@ -197,4 +197,35 @@ p {
 /* Contact Section */
 #contact {
     padding: var(--sectionPadding);
+}
+
+/* Hero 1 Section */
+#hero1 {
+    height: 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  
+  .hero-title {
+      font-size: 3rem;
+      font-weight: 600;
+      margin: 0.5rem 0 1rem;
+      text-align: center;
+  }
+  
+  .hero-right1 img{
+      width: 75%;
+      padding: 30px;
+      height: auto;
+  }
+  
+  .hero-right1 {
+      display: flex;
+      justify-content: center;
+  }
+
+.p3 {
+    font-size: 2rem; /* 11px */
+    line-height: 1.9rem;
 }

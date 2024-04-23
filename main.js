@@ -20,21 +20,3 @@ document.addEventListener('DOMContentLoaded', function () {
             alert('photo by: Nadira Ardianti : ' + this.alt);
         });
     });
-
-  // Ambil semua tombol navigasi
-  const navButtons = document.querySelectorAll('.nav button');
-
-  // Loop melalui setiap tombol navigasi
-  navButtons.forEach(button => {
-      // Tambahkan event listener untuk setiap tombol
-      button.addEventListener('click', () => {
-          // Ambil ID dari bagian yang sesuai (misalnya, gallery, blog, atau contact)
-          const sectionId = button.querySelector('a').getAttribute('href').slice(1);
-
-          // Cari elemen dengan ID yang sesuai
-          const targetSection = document.getElementById(sectionId);
-
-          // Gulir halaman ke elemen tersebut dengan efek smooth
-          targetSection.scrollIntoView({ behavior: 'smooth' });
-      });
-   });

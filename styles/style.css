@@ -68,6 +68,7 @@ a{
     border: 1.5px solid var(--borderColor);
     cursor: pointer;
     transition: .2s ease-in-out;
+    
 }
 
 .btn:hover {
